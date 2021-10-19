@@ -9,7 +9,7 @@ print("Python3 Varible Test")
 print("This will print bolth List Variables and Normal Variables.")
 print("Now starting test")
 print(x, y, z)
-print(alphabet)
+print(*alphabet, sep='\n')
 print("If the output was 1 2 3 and then it said the entire alphabet then the test worked.")
 # print troubleshooting list
 print("If it did not work try the following: ")
